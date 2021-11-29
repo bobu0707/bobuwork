@@ -1,0 +1,86 @@
+@import 'import';
+.content{
+  background: $grade;
+  line-height: 3rem;
+  hr{
+    color: $blue;
+    border-top-width: 3px;
+  }
+  .inner{
+    background: $white;
+    padding: 20px;
+    box-shadow: $shadow;
+    @include pc{
+      padding: 24px;
+    }
+  }
+  .thumbnail{
+    margin: auto;
+    width: 50%;
+    @include pc{
+      margin: 48px auto;
+      width: 20%;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    @include pc{
+    font-size: 2.6rem;
+    padding: 32px 0;
+  }
+  }
+  h2{
+    display: inline-block;
+    font-size: 1.8rem;
+    border-bottom: $blue solid 3px;
+    padding-right: 20px;
+    margin: 20px 0;
+    @include pc{
+      font-size: 2.4rem;
+    }
+  }
+  h3{
+    border-left: $blue solid 3px;
+    padding-left: 8px;
+    font-weight: bold;
+    margin: 12px 0;
+  }
+  h4{
+    font-weight: bold;
+    margin: 12px 0;
+  }
+  ul{
+    margin: 16px;
+  }
+  code{
+    height: 400px;
+    padding: 0 4px;
+    overflow-y: scroll;
+    border: $gray solid 2px;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    margin-bottom: 24px;
+  }
+  figure{
+    img{
+      height: 100%;
+      margin: 12px 0;
+    }
+  }
+  p{
+    font-size: 1.4rem;
+    ul{
+      margin-bottom: 24px;
+    }
+  }
+  li{
+    list-style: inside;
+  }
+}

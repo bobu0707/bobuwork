@@ -1,0 +1,45 @@
+#loading {
+  display: none;
+}
+
+.search .searchform {
+  margin: 24px 0;
+}
+
+.search .searchsubmit {
+  padding: 0 8px;
+}
+
+.search h3 {
+  margin-bottom: 24px;
+}
+
+.search .flame {
+  margin-bottom: 24px;
+  border: #555 1px solid;
+  padding: 8px;
+}
+
+.search .flame a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search .thumb {
+  width: 10%;
+  margin-right: 40px;
+}
+
+.search .thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.search input {
+  border: #555 solid 1px;
+}
+/*# sourceMappingURL=search.css.map */

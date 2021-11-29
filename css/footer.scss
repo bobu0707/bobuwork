@@ -1,0 +1,43 @@
+@import 'import';
+
+footer{
+  background-color: $blue;
+  padding-top: 24px;
+  .foot__nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:0 5% 12px;
+  }
+  li{
+    font-size: 1.2rem;
+    padding: 4px 8px;
+    @include pc{
+      font-size: 1.4rem;
+    }
+  }
+  .SNS{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+    &__twitter{
+      img{
+        margin: 0 4px;
+        width: 32px;
+        height: 32px;
+        border: 1px solid $white;
+        border-radius: 50%;
+      }
+    }
+    &__facebook{
+      @extend .SNS__twitter;
+    }
+  }
+  small{
+    display: flex;
+    justify-content: center;
+    a:hover{
+      opacity: 0.7;
+    }
+  }
+}

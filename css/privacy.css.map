@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACE,QADM,CACN,EAAE,CAAA;EACA,aAAa,EAAE,IAAI;CACpB;;AAHH,AAIE,QAJM,CAIN,EAAE,CAAA;EACA,aAAa,EAAE,GAAG;CACnB;;AANH,AAOE,QAPM,CAON,CAAC,CAAA;EACC,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "privacy.scss",
+        "_import.scss"
+    ],
+    "names": [],
+    "file": "privacy.css"
+}

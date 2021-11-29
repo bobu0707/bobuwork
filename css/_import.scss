@@ -1,0 +1,27 @@
+$gray: #555;
+$light_gray: #dfdfdf;
+$white: #fff;
+$orange: #FF9D00;
+$blue: #82CBDE;
+$grade: linear-gradient(#DEFFFF, #FFFFFF);
+$shadow: 2px 2px 6px;
+
+$pc: 1024px;
+$tab: 680px;
+$sp: 480px;
+
+@mixin pc{
+  @media (min-width: ($pc)){
+    @content;
+  }
+}
+@mixin tab{
+  @media (min-width: ($tab)){
+    @content;
+  }
+}
+@mixin sp{
+  @media (min-width: ($sp)){
+    @content;
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACE,OADK,CACL,EAAE,CAAA;EACA,aAAa,EAAE,IAAI;CACpB;;AAHH,AAIE,OAJK,CAIL,CAAC,CAAA;EACC,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "thanks.scss",
+        "_import.scss"
+    ],
+    "names": [],
+    "file": "thanks.css"
+}

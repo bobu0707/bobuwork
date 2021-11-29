@@ -1,0 +1,16 @@
+.error .searchform {
+  margin: 24px 0;
+}
+
+.error .searchsubmit {
+  padding: 0 8px;
+}
+
+.error a {
+  color: blue;
+}
+
+.error input {
+  border: #555 solid 1px;
+}
+/*# sourceMappingURL=404.css.map */

@@ -1,0 +1,36 @@
+@import 'import';
+.contact{
+  background: $grade;
+  position: relative;
+  .wpcf7{
+    input[type="text"],
+    input[type="email"],
+    textarea{
+      border: $gray 1px solid;
+      background: $white;
+      width: 90%;
+      display: block;
+      margin: 0 auto 12px;
+      padding: 4px 8px;
+    }
+    input[type="submit"]{
+      padding: 2px 40px;
+      background: $white;
+      border: $gray 1px solid;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+      :focus:not(:focus-visible){
+        outline: 2px solid red;
+      }
+    }
+  }
+  .wpcf7-response-output{
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto !important;
+    width: 90%;
+    height: 40px;
+    background: $white;
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACE,MADI,CACJ,WAAW,CAAA;EACT,MAAM,EAAE,MAAM;CACf;;AAHH,AAIE,MAJI,CAIJ,aAAa,CAAA;EACX,OAAO,EAAE,KAAK;CACf;;AANH,AAOE,MAPI,CAOJ,CAAC,CAAA;EACC,KAAK,EAAE,IAAI;CACZ;;AATH,AAUE,MAVI,CAUJ,KAAK,CAAA;EACH,MAAM,ECZH,IAAI,CDYO,KAAK,CAAC,GAAG;CACxB",
+    "sources": [
+        "404.scss",
+        "_import.scss"
+    ],
+    "names": [],
+    "file": "404.css"
+}

@@ -1,0 +1,15 @@
+@import 'import';
+.error{
+  .searchform{
+    margin: 24px 0;
+  }
+  .searchsubmit{
+    padding: 0 8px;
+  }
+  a{
+    color: blue;
+  }
+  input{
+    border: $gray solid 1px;
+  }
+}

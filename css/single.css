@@ -1,0 +1,111 @@
+.content {
+  background: -webkit-gradient(linear, left top, left bottom, from(#DEFFFF), to(#FFFFFF));
+  background: linear-gradient(#DEFFFF, #FFFFFF);
+  line-height: 3rem;
+}
+
+.content hr {
+  color: #82CBDE;
+  border-top-width: 3px;
+}
+
+.content .inner {
+  background: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 2px 2px 6px;
+          box-shadow: 2px 2px 6px;
+}
+
+@media (min-width: 1024px) {
+  .content .inner {
+    padding: 24px;
+  }
+}
+
+.content .thumbnail {
+  margin: auto;
+  width: 50%;
+}
+
+@media (min-width: 1024px) {
+  .content .thumbnail {
+    margin: 48px auto;
+    width: 20%;
+  }
+}
+
+.content .thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.content h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+@media (min-width: 1024px) {
+  .content h1 {
+    font-size: 2.6rem;
+    padding: 32px 0;
+  }
+}
+
+.content h2 {
+  display: inline-block;
+  font-size: 1.8rem;
+  border-bottom: #82CBDE solid 3px;
+  padding-right: 20px;
+  margin: 20px 0;
+}
+
+@media (min-width: 1024px) {
+  .content h2 {
+    font-size: 2.4rem;
+  }
+}
+
+.content h3 {
+  border-left: #82CBDE solid 3px;
+  padding-left: 8px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.content h4 {
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.content ul {
+  margin: 16px;
+}
+
+.content code {
+  height: 400px;
+  padding: 0 4px;
+  overflow-y: scroll;
+  border: #555 solid 2px;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  margin-bottom: 24px;
+}
+
+.content figure img {
+  height: 100%;
+  margin: 12px 0;
+}
+
+.content p {
+  font-size: 1.4rem;
+}
+
+.content p ul {
+  margin-bottom: 24px;
+}
+
+.content li {
+  list-style: inside;
+}
+/*# sourceMappingURL=single.css.map */

@@ -1,0 +1,71 @@
+@import 'import';
+@import 'contact';
+.introduction{
+  display: none;
+  background: $grade;
+  &__text{
+    margin-bottom: 72px;
+  }
+  .right{
+    text-align: right;
+  }
+  .orange{
+    color: $orange;
+  }
+}
+@mixin flame{
+  border: $gray solid 1px;
+  background: $white;
+  width: 90%;
+  margin: auto;
+}
+.flow{
+  background: $grade;
+  .flame{
+    @include flame();
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    @include pc{
+      font-size: 1.6rem;
+    }
+  }
+  .arrow{
+    margin-bottom: 12px;
+  }
+}
+.price{
+  background: $grade;
+  h2{
+    margin-bottom: 0;
+  }
+  &__comment{
+    margin-bottom: 12px;
+  }
+  .flame{
+    @include flame();
+    position: relative;
+    padding: 12px;
+    margin-bottom: 24px;
+    &__comment{
+      padding-left: 8px;
+      margin-bottom: 32px;
+    }
+    &__price{
+      color: $blue;
+      font-weight: bold;
+      position: absolute;
+      right: 12px;
+      bottom: 8px;
+    }
+  }
+}
+.contact{
+  .wpcf7-response-output{
+    top: 48px;
+  }
+}
